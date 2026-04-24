@@ -1036,6 +1036,18 @@
   }
 }
 
+.le-home-v6 .le-responsible-play {
+  margin-top: 28px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: rgba(10, 26, 51, 0.03);
+  border: 1px solid var(--le-border);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--le-text-soft);
+}
+
 </style>
 
 <!--
@@ -1064,7 +1076,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
             </div>
           </div>
 
-          <p class="le-kicker le-kicker-light">AI lottery predictions, analysis tools, and smarter number strategy</p>
+          <span class="le-kicker le-kicker-light">AI lottery predictions, analysis tools, and smarter number strategy</span>
 
           <h1 id="le-home-v6-title" class="le-title-xl">
             AI lottery predictions, analysis tools, and a smarter workflow for serious players.
@@ -1101,10 +1113,10 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
             <div class="le-instant-run-selects">
               <div class="le-select-wrap">
                 <select class="le-select" id="le-home-lottery-select" aria-label="Choose lottery">
-                  <option value="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=101" selected>Powerball</option>
-                  <option value="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=113">Mega Millions</option>
-                  <option value="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145">Millionaire for Life</option>
-                  <option value="/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=801">EuroMillions</option>
+                  <option value="101" selected>Powerball</option>
+                  <option value="113">Mega Millions</option>
+                  <option value="145">Millionaire for Life</option>
+                  <option value="801">EuroMillions</option>
                 </select>
               </div>
               <div class="le-select-wrap">
@@ -1115,8 +1127,8 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
               </div>
             </div>
 
-            <div class="le-button-row">
-              <a class="le-btn le-btn-light" id="le-home-run-link" href="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions-for-powerball">Go to Free Powerball AI</a>
+            <div class="le-button-row" aria-live="polite" aria-atomic="true">
+              <a class="le-btn le-btn-light" id="le-home-run-link" href="/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=101">Run Free Powerball AI</a>
             </div>
           </div>
 
@@ -1141,10 +1153,11 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
         </div>
       </div>
     </div>
+  </section>
 
   <section class="le-section">
     <div class="le-card le-summary">
-      <p class="le-kicker le-kicker-blue">What LottoExpert does</p>
+      <span class="le-kicker le-kicker-blue">What LottoExpert does</span>
       <h2 class="le-title-lg">A clearer path from free AI predictions to premium analysis</h2>
       <div class="le-summary-grid">
         <div>
@@ -1169,6 +1182,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
     </div>
   </section>
 
+  <section class="le-section" aria-label="Key platform advantages">
     <div class="le-proof-strip">
       <div class="le-proof-item le-panel">
         <strong>Start free with AI</strong>
@@ -1187,7 +1201,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-start">
-      <p class="le-kicker le-kicker-blue">Start here</p>
+      <span class="le-kicker le-kicker-blue">Start here</span>
       <h2 class="le-title-lg">Three clear ways to begin</h2>
       <p class="le-copy-lg">
         Choose the path that fits what you want right now. You can always return for deeper tools, more context, and stronger workflow later.
@@ -1232,7 +1246,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-featured">
-      <p class="le-kicker le-kicker-blue">Start with a major lottery</p>
+      <span class="le-kicker le-kicker-blue">Start with a major lottery</span>
       <h2 class="le-title-lg">Run AI predictions for major lotteries</h2>
       <p class="le-copy-lg">
         Start with one of LottoExpert's featured lotteries and go directly into predictions, results, archives, and deeper analysis.
@@ -1288,7 +1302,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-skai-core">
-      <p class="le-kicker le-kicker-blue">Why premium SKAI analysis goes deeper</p>
+      <span class="le-kicker le-kicker-blue">Why premium SKAI analysis goes deeper</span>
       <h2 class="le-title-lg">SKAI helps turn raw lottery data into a more structured starting point</h2>
       <p class="le-copy-lg">
         SKAI is LottoExpert's flagship learning-based lottery intelligence system. It is designed to analyze draw history, evaluate structure, adapt by lottery, and give users a clearer analytical starting point than random picks or thin static formulas.
@@ -1327,7 +1341,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-process">
-      <p class="le-kicker le-kicker-blue">How the process works</p>
+      <span class="le-kicker le-kicker-blue">How the process works</span>
       <h2 class="le-title-lg">Move from prediction to decision to refinement</h2>
       <p class="le-copy-lg">
         LottoExpert is strongest when predictions, validation, and tracking work together. This is the core workflow that turns raw output into a more disciplined decision process.
@@ -1378,7 +1392,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-membership">
-      <p class="le-kicker le-kicker-blue">My LottoExpert</p>
+      <span class="le-kicker le-kicker-blue">My LottoExpert</span>
       <h2 class="le-title-lg">Where analysis becomes a repeatable system</h2>
       <p class="le-copy-lg">
         My LottoExpert gives users a structured workspace for dashboard control, saved history, deeper analysis, tracking, and ongoing refinement across the free and premium experience.
@@ -1396,7 +1410,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
         </div>
 
         <div class="le-panel le-membership-card le-membership-card-premium">
-          <p class="le-kicker le-kicker-success">Start with free access</p>
+          <span class="le-kicker le-kicker-success">Start with free access</span>
           <h3 class="le-title-md">Free gets you predictions. Membership gives you memory, evidence, and refinement.</h3>
           <p class="le-copy">
             Create a free enthusiast account to unlock Traditional AI for Powerball, then move deeper into membership when you want premium SKAI analysis, stronger continuity, and a more organized personal workflow.
@@ -1424,7 +1438,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-screens">
-      <p class="le-kicker le-kicker-blue">See the platform in action</p>
+      <span class="le-kicker le-kicker-blue">See the platform in action</span>
       <h2 class="le-title-lg">A real analytical workspace</h2>
       <p class="le-copy-lg">
         The platform already includes real member-facing screens for dashboard control, deeper analysis, result tracking, and strategy refinement.
@@ -1587,7 +1601,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-learn">
-      <p class="le-kicker le-kicker-blue">Learn how the platform works</p>
+      <span class="le-kicker le-kicker-blue">Learn how the platform works</span>
       <h2 class="le-title-lg">Understand the platform with confidence</h2>
       <p class="le-copy-lg">
         Understand how the platform works, explore the key settings, and go deeper only where you want more context.
@@ -1627,8 +1641,8 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <section class="le-section">
     <div class="le-card le-trust">
-      <p class="le-kicker le-kicker-blue">Trust, methodology, and how to start</p>
-      <h2 class="le-title-lg">What LottoExpert is designed to help you do</h2>
+      <span class="le-kicker le-kicker-blue">Frequently asked questions</span>
+      <h2 class="le-title-lg">Common questions about LottoExpert</h2>
       <p class="le-copy-lg">
         LottoExpert is built to help users start with free AI analysis where appropriate, move into premium tools when ready, and work through a more transparent long-term process.
       </p>
@@ -1661,6 +1675,19 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
             Registration unlocks Traditional AI for Powerball, helps users save work, compare evidence, track outcomes, and creates a clear upgrade path into premium SKAI inside My LottoExpert.
           </p>
         </article>
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">Is LottoExpert free to use?</h3>
+          <p class="le-copy">
+            Yes. Free enthusiast registration includes Traditional AI predictions for Powerball. Premium membership adds SKAI analysis for more lotteries, saved history, and advanced workflow features inside My LottoExpert.
+          </p>
+        </article>
+
+        <article class="le-panel le-faq-card">
+          <h3 class="le-title-md">What lotteries does LottoExpert cover?</h3>
+          <p class="le-copy">
+            LottoExpert covers major US lotteries including Powerball, Mega Millions, and Millionaire for Life, as well as international games like EuroMillions. The full list is available through the platform's lottery directory.
+          </p>
+        </article>
       </div>
     </div>
   </section>
@@ -1678,10 +1705,16 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
         <div class="le-button-row le-button-row-no-top">
           <a class="le-btn le-btn-outline" href="/membership/my-dashboard">My LottoExpert</a>
           <a class="le-btn le-btn-outline" href="/all-wheeling-systems">Wheeling Systems</a>
+          <a class="le-btn le-btn-outline" href="/all-us-lotteries">US Lotteries</a>
+          <a class="le-btn le-btn-outline" href="/ai-lottery-prediction-how-it-works">How SKAI Works</a>
         </div>
       </div>
     </div>
   </section>
+
+  <p class="le-responsible-play">
+    LottoExpert provides analytical tools and AI-based prediction support. All lottery games involve chance. There are no guaranteed winning strategies. Please play responsibly.
+  </p>
 
   <div class="le-lightbox" id="le-home-lightbox" aria-hidden="true">
     <div class="le-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="le-home-lightbox-title">
@@ -1701,6 +1734,29 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
   <script>
   (function() {
+    var gameUrls = {
+      '101': {
+        traditional: '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=101',
+        skai: '/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=101',
+        name: 'Powerball'
+      },
+      '113': {
+        traditional: '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=113',
+        skai: '/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=113',
+        name: 'Mega Millions'
+      },
+      '145': {
+        traditional: '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=145',
+        skai: '/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=145',
+        name: 'Millionaire for Life'
+      },
+      '801': {
+        traditional: '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=801',
+        skai: '/picking-winning-numbers/artificial-intelligence/skai-lottery-prediction?gameId=801',
+        name: 'EuroMillions'
+      }
+    };
+
     var triggers = document.querySelectorAll('.le-home-v6 [data-lightbox="homepage-screens"]');
     var lightbox = document.getElementById('le-home-lightbox');
     var lightboxImage = document.getElementById('le-home-lightbox-image');
@@ -1717,23 +1773,21 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
         return;
       }
 
-      var lotteryUrl = lotterySelect.value || '';
-      var mode = modeSelect.value || 'skai';
-      var finalUrl = lotteryUrl;
+      var gameId = lotterySelect.value || '101';
+      var mode = modeSelect.value || 'traditional';
+      var game = gameUrls[gameId];
 
-      if (mode === 'traditional') {
-        if (lotteryUrl.indexOf('gameId=101') !== -1) {
-          finalUrl = '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=101';
-        } else if (lotteryUrl.indexOf('gameId=113') !== -1) {
-          finalUrl = '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=113';
-        } else if (lotteryUrl.indexOf('gameId=145') !== -1) {
-          finalUrl = '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=145';
-        } else if (lotteryUrl.indexOf('gameId=801') !== -1) {
-          finalUrl = '/picking-winning-numbers/artificial-intelligence/ai-powered-predictions?game_id=801';
-        }
+      if (!game) {
+        return;
       }
 
-      runLink.setAttribute('href', finalUrl);
+      var url = (mode === 'skai') ? game.skai : game.traditional;
+      var label = (mode === 'skai')
+        ? 'Run SKAI for ' + game.name
+        : (gameId === '101' ? 'Run Free Powerball AI' : 'Run Traditional AI for ' + game.name);
+
+      runLink.setAttribute('href', url);
+      runLink.textContent = label;
     }
 
     if (lotterySelect && modeSelect && runLink) {
@@ -1780,8 +1834,48 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
 
     function handleKeydown(event) {
       var key = event.key || event.keyCode;
+
       if (key === 'Escape' || key === 'Esc' || key === 27) {
-        closeLightbox();
+        if (lightbox.getAttribute('aria-hidden') === 'false') {
+          closeLightbox();
+        }
+        return;
+      }
+
+      if (lightbox.getAttribute('aria-hidden') !== 'false') {
+        return;
+      }
+
+      if (key !== 'Tab' && key !== 9) {
+        return;
+      }
+
+      var dialog = lightbox.querySelector('.le-lightbox-dialog');
+      if (!dialog) {
+        return;
+      }
+
+      var focusable = dialog.querySelectorAll(
+        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+      );
+
+      if (!focusable.length) {
+        return;
+      }
+
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+
+      if (event.shiftKey) {
+        if (document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        }
+      } else {
+        if (document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
       }
     }
 
@@ -1819,6 +1913,7 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
         "@id": "https://www.lottoexpert.net/#organization",
         "name": "LottoExpert",
         "url": "https://www.lottoexpert.net/",
+        "description": "LottoExpert is an AI-powered lottery analysis platform offering free Powerball predictions, premium SKAI analysis, and My LottoExpert member workspace for smarter, disciplined lottery play.",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.lottoexpert.net/images/lotto_expert_refined_transparent.png",
@@ -1851,6 +1946,63 @@ META DESCRIPTION: Start free with AI predictions for Powerball, explore premium 
           "url": "https://www.lottoexpert.net/images/lotto_expert_refined_transparent.png"
         },
         "description": "LottoExpert is an AI-powered lottery analysis platform with free Powerball AI predictions, premium SKAI analysis, featured lottery pages, and My LottoExpert workflow tools for smarter long-term decision support."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.lottoexpert.net/#faqpage",
+        "isPartOf": {
+          "@id": "https://www.lottoexpert.net/#webpage"
+        },
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is LottoExpert?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LottoExpert is an AI-powered lottery analysis platform focused on free and premium prediction paths, historical analysis, workflow continuity, and smarter number selection support."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is SKAI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SKAI is LottoExpert's flagship premium learning-based lottery intelligence system designed to produce more informed starting points for analysis."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does LottoExpert guarantee winning numbers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. LottoExpert is designed to support smarter, better-organized decisions, not to claim certainty or guaranteed outcomes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why should users register?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Registration unlocks Traditional AI for Powerball, helps users save work, compare evidence, track outcomes, and creates a clear upgrade path into premium SKAI inside My LottoExpert."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is LottoExpert free to use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Free enthusiast registration includes Traditional AI predictions for Powerball. Premium membership adds SKAI analysis for more lotteries, saved history, and advanced workflow features inside My LottoExpert."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What lotteries does LottoExpert cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LottoExpert covers major US lotteries including Powerball, Mega Millions, and Millionaire for Life, as well as international games like EuroMillions. The full list is available through the platform's lottery directory."
+            }
+          }
+        ]
       }
     ]
   }
